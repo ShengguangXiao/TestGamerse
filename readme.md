@@ -77,6 +77,10 @@ Summary
 > Final cost:          0.032018472 ETH
 ```
 
+The deployment result on BSC testnet.
+
+![Deploy_test_gamerse](https://github.com/ShengguangXiao/TestGamerse/blob/main/Deploy_test_gamerse.png)
+
 ## Test the contract on testnet and with oracle
 First need to export your walfram API key(which is the appid) as the environment variable.
 
@@ -91,3 +95,9 @@ truffle exec --network testnet scripts/test_gamerse_with_testnet.js
 ```
 
 it will show the dice result and balances before and after roll the dice.
+
+An transaction example.
+
+
+
+![Transfer_example](https://github.com/ShengguangXiao/TestGamerse/blob/main/Transfer_example.png)
